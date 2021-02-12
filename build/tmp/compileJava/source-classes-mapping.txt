@@ -1,10 +1,12 @@
-Portfolio.java
- Portfolio
-ProductAlreadyRegisteredException.java
- ProductAlreadyRegisteredException
 ProductPricingService.java
  ProductPricingService
+ProductAlreadyRegisteredException.java
+ ProductAlreadyRegisteredException
 Futures.java
  Futures
+MontrealTradedProducts.java
+ MontrealTradedProducts
+Product.java
+ Product
 Stocks.java
  Stocks

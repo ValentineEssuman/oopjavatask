@@ -11,7 +11,8 @@ public class Stocks extends Product {
 
     @Override
     public Double getCurrentPrice() {
-        return super.getCurrentPrice();
+        //return super.getCurrentPrice();
+        return 5.0;
     }
 
     public String getStockTicker() {
@@ -21,7 +22,6 @@ public class Stocks extends Product {
     public void setStockTicker(String stockTicker) {
         this.stockTicker = stockTicker;
     }
-g
     public String getExchange() {
         return exchange;
     }
