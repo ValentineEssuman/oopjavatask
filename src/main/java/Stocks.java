@@ -2,10 +2,9 @@ public class Stocks extends Product {
 
     private String stockTicker;
     private String exchange;
-    private Integer quantity
 
-    public Stocks(String productID, Double currentPrice, Integer quantity, exchange, String stockTicker ) {
-        super(productID, currentPrice,);
+    public Stocks(String productID, Double currentPrice, String exchange, String stockTicker ) {
+        super(productID, currentPrice);
         this.exchange = exchange;
         this.stockTicker = stockTicker;
     }
@@ -22,7 +21,7 @@ public class Stocks extends Product {
     public void setStockTicker(String stockTicker) {
         this.stockTicker = stockTicker;
     }
-
+g
     public String getExchange() {
         return exchange;
     }
